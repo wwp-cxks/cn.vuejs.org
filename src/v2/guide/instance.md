@@ -52,7 +52,7 @@ var vm = new Vue({
 
 // 获得这个实例上的 property
 // 返回源数据中对应的字段
-vm.a == data.a // => true
+vm.data.a == data.a // => true
 
 // 设置 property 也会影响到原始数据
 vm.a = 2
